@@ -1,0 +1,83 @@
+.Stay-in-Touch-section {
+   background-image: url(../../img/bcg-image-footer.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 81px;
+   margin-top: 50px;
+}
+
+.Stay-in-Touch-section__content {
+   padding-bottom: 90px;
+}
+
+.Stay-in-Touch-section__content-heading {
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 30px;   
+   text-align: center;
+   color: #EFEFEF;
+}
+
+.Stay-in-Touch-section__hr {
+   width: 185px;
+}
+
+.Stay-in-Touch-section__content-form {
+   margin-top: 20px;
+}
+
+.Stay-in-Touch-section__content-label {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Stay-in-Touch-section__content-input {
+   max-width: 375px;
+   background-color: #FFFFFF;
+   border-radius: 3px 0px 0px 3px;
+   padding-left: 35px;
+   padding-top: 16px;
+   padding-bottom: 16px;  
+   padding-right: 200px;
+   border: none;
+
+   &::placeholder {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #817F83;    
+   }
+}
+
+.Stay-in-Touch-section__content-button {
+   background-color: rgba(255, 255, 255, 0.28);
+   border-radius: 0px 3px 3px 0px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;   
+   color: #F8F8F8;
+   border: none;
+   padding-top: 18px;
+   padding-bottom: 18px;
+   padding-left: 43px;
+   padding-right: 43px;
+
+   &:hover {
+      opacity: 0.7;
+   }
+}
+
+@media only screen and (max-width:540px) {
+   
+   .Stay-in-Touch-section__content-label {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .Stay-in-Touch-section__content-input {
+      padding-left: 12px;
+      padding-bottom: 16px;  
+      padding-right: 75px;   
+   }
+}

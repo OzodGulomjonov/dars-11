@@ -1,0 +1,120 @@
+.Most-Recent-content {
+   margin-top: 70px;
+}
+
+.Most-Recent-content__heading {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;   
+   text-align: center;
+   color: #2E2E2E;
+   font-family: $font-oxygen;
+}
+
+.Most-Recent-content__hr {
+   width: 188px;
+   height: 1px;
+   background-color:  #DEDEDE;
+   border-radius: 0px;
+}
+
+.Most-Recent-content__list {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 40px;
+}
+
+.Most-Recent-content__item {
+   max-width: 296px;
+   background-color: #FFFFFF;
+   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.09);
+   border-radius: 3px;   
+}
+
+.Most-Recent-content__text-wrapper {
+   padding-left: 13px;
+   padding-right: 13px;
+   padding-bottom: 6px;
+}
+
+.Most-Recent-content__item-heading {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;   
+   color: #101315;
+   margin-bottom: 0;
+   padding-bottom: 6px;
+}
+
+.Most-Recent-content__item-text {
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 19px;   
+   color: #7A7A7A;
+   font-family: $font-oxygen;
+   margin: 0;
+   padding-bottom: 12px;
+}
+
+.Most-Recent-content__name-wrapper {
+   display: flex;
+   align-items: center;
+}
+
+.Most-Recent-content__name {
+   display: flex;
+   align-items: center;
+}
+
+.Most-Recent-content__name-text {
+   font-weight: 400;
+   font-size: 11px;
+   line-height: 35px;   
+   color: #999999;
+   font-family: $font-oxygen;
+   margin-left: 10px;
+}
+
+.Most-Recent-content__item-data {
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 35px;
+   color: #999999;   
+   font-family: $font-oxygen;
+   margin-left: auto;
+}
+
+@media only screen and (max-width:980px) {
+
+   .Most-Recent-content__list {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .Most-Recent-content__item {
+
+      &:not(:last-child) {
+         margin-bottom: 70px;
+      }
+   }
+}
+
+@media only screen and (max-width:480px) {
+
+   .Most-Recent-content__item {
+      max-width: 270px;
+   }
+
+   .Most-Recent-content__item-text {
+      max-width: 245px;
+   }
+
+   .Most-Recent-content__hr {
+      display: none;
+   }
+}

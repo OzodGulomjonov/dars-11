@@ -1,0 +1,10 @@
+.sitenav {
+  background-color: $color-dark;
+}
+.sitenav__list {
+  @include list-unstyled;
+}
+.sitenav__item {
+}
+.sitenav__link {
+}
